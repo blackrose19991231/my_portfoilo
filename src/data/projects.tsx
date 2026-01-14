@@ -811,7 +811,7 @@ const projects: Project[] = [
             optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
             Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization.
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
           <SlideShow
             images={[
               `${BASE_PATH}/aidockerfileoptimizer/1.png`,
@@ -858,7 +858,7 @@ const projects: Project[] = [
             and deployment processes, and continuous monitoring using modern DevOps tools and 
             AWS services.?
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
           <TypographyH3 className="my-4 mt-8">Architecture </TypographyH3>
           <p className="font-mono mb-2">
             The project is divided into three main phases:
@@ -944,7 +944,7 @@ const projects: Project[] = [
             Welcome to my digital playground, where creativity meets code in the
             dopest way possible.
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
           <TypographyH3 className="my-4 mt-8">
             Beautiful 3D Objects{" "}
           </TypographyH3>
@@ -1037,7 +1037,7 @@ const projects: Project[] = [
             Enjoy seamless access across devices with a responsive design and email reminders for 
             interviews. A smarter, more intuitive way to stay on top of your job hunt!
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
           <SlideShow
             images={[
               `${BASE_PATH}/smartjobtracker/01.png`,
