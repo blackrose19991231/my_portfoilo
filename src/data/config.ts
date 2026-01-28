@@ -1,16 +1,16 @@
 const config = {
-  title: "Micheal John | Web Developer, Full Stack Engineer, AI Enthusiast",
+  title: "Mihai Ionescu | Web Developer, Full Stack Engineer, AI Enthusiast",
   description: {
-    long: "Explore the portfolio of Micheal, a Computer Science Engineer with 1.5 year experience in Devlopment, DevOps & Database management with hands-on experience in deploying & automating workflows, & collaborating with foreign clients. Strong analytical skills, effective communication, and a team-oriented approach to driving process improvements and delivering results.",
+    long: "Explore the portfolio of Mihai, a Computer Science Engineer with 1.5 year experience in Devlopment, DevOps & Database management with hands-on experience in deploying & automating workflows, & collaborating with foreign clients. Strong analytical skills, effective communication, and a team-oriented approach to driving process improvements and delivering results.",
     short:
-      "Discover the portfolio of Micheal, a AI enthusiast solving real life problems in DevOps and Development.",
+      "Discover the portfolio of Mihai, a AI enthusiast solving real life problems in DevOps and Development.",
   },
   keywords: [
-    "Micheal",
-    "Micheal John",
-    "michealjohn",
-    "michealjohn.com",
-    "Micheal John portfolio",
+    "Mihai",
+    "Mihai Ionescu",
+    "mihaiionescu",
+    "mihaiionescu.com",
+    "Mihai Ionescu portfolio",
     "portfolio",
     "DevOps",
     "Devlopment",
@@ -30,16 +30,16 @@ const config = {
     "AIOps",
     "Azure",
   ],
-  author: "Micheal John",
-  email: "kingtiger0228@outlook.com",
-  site: "https://michealjohn.com",
+  author: "Mihai Ionescu",
+  email: "mihai.ionescu0907@outlook.com",
+  site: "https://mihaiionescu.com",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
     // twitter: "https://x.com/_Abhi_Speaks/",
-    // linkedin: "https://www.linkedin.com/in/John-Micheal/",
+    // linkedin: "https://www.linkedin.com/in/Ionescu-Mihai/",
     // instagram: "https://www.instagram.com/_.celestial_abhi._/",
     // facebook: "https://www.facebook.com/profile.php?id=100010029821759",
     github: "https://github.com/Vincenzo0228-bong",
