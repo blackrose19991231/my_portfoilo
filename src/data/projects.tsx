@@ -792,131 +792,72 @@ const projects: Project[] = [
   // +
   { // 01. AI Docker file optimizer project
     id: "aidockerfileoptimizer",
-    category: "AI and DevOps",
-    title: "AI Dockerfile Optimizer",
+    category: "AI Powered Chat Bot",
+    title: "AI Powered Customer Chat Bot",
     src: "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
     screenshots: ["1.png", "2.png", "3.png"],
     live: "https://ai-docker-file-optimizer.netlify.app/",
     github:"https://github.com/Abhiz2411/AI-Docker-file-optimizer",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
-      backend: [PROJECT_SKILLS.openai,PROJECT_SKILLS.netlify],
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind],
+      backend: [PROJECT_SKILLS.node,PROJECT_SKILLS.mongo, PROJECT_SKILLS.express, PROJECT_SKILLS.openai],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            AI-Docker-file-optimizer helps optimize Dockerfiles for smaller, more efficient images. 
-            Simply paste your Dockerfile, and the app analyzes it for best practices and size 
-            optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
-            Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization.
+            This web app allows users to chat with an AI assistant that answers questions in a helpful and natural way.
+            The admin can easily upload company information or FAQs, so the AI responds based on real, accurate data.
+            The app includes a clean user interface and a well-structured backend to ensure smooth and reliable performance.
           </TypographyP>
           {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
           <SlideShow
             images={[
               `${BASE_PATH}/aidockerfileoptimizer/1.png`,
               `${BASE_PATH}/aidockerfileoptimizer/2.png`,
-              `${BASE_PATH}/aidockerfileoptimizer/3.png`,
             ]}
           />
         </div>
       );
     },
   },
-  { // 02. FinanceMe project
-    id: "financeme",
-    category: "DevOps in Banking and Finance",
-    title: "FinanceMe: Complete DevOps Capstone Project",
-    src: "/assets/projects-screenshots/financeme/1.png",
-    screenshots: ["/assets/projects-screenshots/financeme/1.png"],
+  { // 02. Savinder Puri portfolio project
+    id: "savinderpurisportfolio",
+    category: "Web Development",
+    title: "Freelance Site",
+    src: "/assets/projects-screenshots/freelance/1.png",
+    screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
+    live: "https://savinder-puri.vercel.app/",
+    github:"https://github.com/Abhiz2411/savinder-puri",
     skills: {
-      frontend: [
-        PROJECT_SKILLS.html,
-        PROJECT_SKILLS.css,
-        PROJECT_SKILLS.js,
-        PROJECT_SKILLS.bootstrap,
-      ],
-      backend: [
-        PROJECT_SKILLS.java,
-        PROJECT_SKILLS.maven,
-        PROJECT_SKILLS.postgres,
-      ],
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
+      backend: [PROJECT_SKILLS.php, PROJECT_SKILLS.laravel, PROJECT_SKILLS.mysql],
     },
-    live: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
-    github: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
     get content() {
       return (
         <div>
-          <TypographyP className="font-mono text-2xl text-center">
-            FinanceMe: Complete DevOps Capstone Project
-          </TypographyP>
           <TypographyP className="font-mono ">
-            This project demonstrates the deployment of a DevOps pipeline for a global banking and
-            financial services provider, FinanceMe. The company transitioned from a monolithic 
-            architecture to a microservice-based architecture to handle increased traffic and 
-            scaling challenges. The project involves automating infrastructure provisioning, build 
-            and deployment processes, and continuous monitoring using modern DevOps tools and 
-            AWS services.?
+            A freelance web development project showcasing my experience in building responsive, 
+            modern portfolio websites for clients. This project demonstrates my ability to work 
+            independently, understand client requirements, and deliver high-quality solutions using 
+            cutting-edge technologies. Built with React, Next.js, and TypeScript, it highlights 
+            my skills in frontend development, UI/UX design, and client collaboration. This 
+            freelance experience has strengthened my project management abilities and taught me 
+            valuable lessons in delivering professional web solutions on time and within scope. 💻🚀
           </TypographyP>
-          {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
-          <TypographyH3 className="my-4 mt-8">Architecture </TypographyH3>
-          <p className="font-mono mb-2">
-            The project is divided into three main phases:
-            1.Automating Infrastructure Provisioning
-            2.Build and Deployment Automation
-            3.Continuous Monitoring
-          </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/financeme/1.png`,
-              `${BASE_PATH}/financeme/2.png`,
+              `${BASE_PATH}/freelance/1.png`,
+              `${BASE_PATH}/freelance/2.png`,
+              `${BASE_PATH}/freelance/3.png`,
+              `${BASE_PATH}/freelance/4.png`,
             ]}
           />
-          <TypographyH3 className="my-4 mt-8">Automating Infrastructure Provisioning</TypographyH3>
-          <p className="font-mono mb-2">
-          Terraform is used to create 4 AWS EC2 instances:
-            Jenkins Master Node (for CI/CD pipeline management)
-            Build Server (for application and Docker image builds)
-            Production Server (for deploying Dockerized applications)
-            Monitoring Server (for continuous monitoring of Build and Prod servers)
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/financeme/4_A.png`,
-              `${BASE_PATH}/financeme/4.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Build and Deployment Automation</TypographyH3>
-
-          <p className="font-mono mb-2">
-          Jenkins is configured for a CI/CD pipeline:
-            Jenkins Master Node is responsible for pipeline orchestration.
-            Build Server is configured as a Jenkins Slave Node to handle application builds and Docker image creation.
-            Ansible is used for automating deployment to the Prod server, where the application is deployed using an Ansible client-server model.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/financeme/5.png`,
-              `${BASE_PATH}/financeme/6.png`,
-              `${BASE_PATH}/financeme/7.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Continuous Monitoring </TypographyH3>
-          <p className="font-mono mb-2">
-          Prometheus and Grafana are used for real-time monitoring:
-            Node Exporter is installed on both Build and Prod servers to collect server metrics (CPU, Disk Space, Memory Utilization).
-            Grafana Dashboard is created to visualize these metrics for continuous monitoring.
-          </p>
-          <SlideShow images={[
-                `${BASE_PATH}/financeme/3.png`,
-                `${BASE_PATH}/financeme/8.png`,
-                `${BASE_PATH}/financeme/9.png`,
-                `${BASE_PATH}/financeme/10.png`,
-            ]} />
         </div>
       );
     },
   },
+  
   { // 03. Portfolio project
     id: "portfolio",
     category: "Portfolio",
@@ -1015,7 +956,101 @@ const projects: Project[] = [
       );
     },
   },
-  { // 05. Smart Job Tracker project
+  { // 05. FinanceMe project
+    id: "financeme",
+    category: "DevOps in Banking and Finance",
+    title: "FinanceMe: Complete DevOps Capstone Project",
+    src: "/assets/projects-screenshots/financeme/1.png",
+    screenshots: ["/assets/projects-screenshots/financeme/1.png"],
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.html,
+        PROJECT_SKILLS.css,
+        PROJECT_SKILLS.js,
+        PROJECT_SKILLS.bootstrap,
+      ],
+      backend: [
+        PROJECT_SKILLS.java,
+        PROJECT_SKILLS.maven,
+        PROJECT_SKILLS.postgres,
+      ],
+    },
+    live: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
+    github: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            FinanceMe: Complete DevOps Capstone Project
+          </TypographyP>
+          <TypographyP className="font-mono ">
+            This project demonstrates the deployment of a DevOps pipeline for a global banking and
+            financial services provider, FinanceMe. The company transitioned from a monolithic 
+            architecture to a microservice-based architecture to handle increased traffic and 
+            scaling challenges. The project involves automating infrastructure provisioning, build 
+            and deployment processes, and continuous monitoring using modern DevOps tools and 
+            AWS services.?
+          </TypographyP>
+          {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
+          <TypographyH3 className="my-4 mt-8">Architecture </TypographyH3>
+          <p className="font-mono mb-2">
+            The project is divided into three main phases:
+            1.Automating Infrastructure Provisioning
+            2.Build and Deployment Automation
+            3.Continuous Monitoring
+          </p>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/financeme/1.png`,
+              `${BASE_PATH}/financeme/2.png`,
+            ]}
+          />
+          <TypographyH3 className="my-4 mt-8">Automating Infrastructure Provisioning</TypographyH3>
+          <p className="font-mono mb-2">
+          Terraform is used to create 4 AWS EC2 instances:
+            Jenkins Master Node (for CI/CD pipeline management)
+            Build Server (for application and Docker image builds)
+            Production Server (for deploying Dockerized applications)
+            Monitoring Server (for continuous monitoring of Build and Prod servers)
+          </p>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/financeme/4_A.png`,
+              `${BASE_PATH}/financeme/4.png`,
+            ]}
+          />
+          <TypographyH3 className="my-4 mt-8">Build and Deployment Automation</TypographyH3>
+
+          <p className="font-mono mb-2">
+          Jenkins is configured for a CI/CD pipeline:
+            Jenkins Master Node is responsible for pipeline orchestration.
+            Build Server is configured as a Jenkins Slave Node to handle application builds and Docker image creation.
+            Ansible is used for automating deployment to the Prod server, where the application is deployed using an Ansible client-server model.
+          </p>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/financeme/5.png`,
+              `${BASE_PATH}/financeme/6.png`,
+              `${BASE_PATH}/financeme/7.png`,
+            ]}
+          />
+          <TypographyH3 className="my-4 mt-8">Continuous Monitoring </TypographyH3>
+          <p className="font-mono mb-2">
+          Prometheus and Grafana are used for real-time monitoring:
+            Node Exporter is installed on both Build and Prod servers to collect server metrics (CPU, Disk Space, Memory Utilization).
+            Grafana Dashboard is created to visualize these metrics for continuous monitoring.
+          </p>
+          <SlideShow images={[
+                `${BASE_PATH}/financeme/3.png`,
+                `${BASE_PATH}/financeme/8.png`,
+                `${BASE_PATH}/financeme/9.png`,
+                `${BASE_PATH}/financeme/10.png`,
+            ]} />
+        </div>
+      );
+    },
+  },
+  { // 06. Smart Job Tracker project
     id: "smartjobtracker",
     category: "Full stack",
     title: "Smart Job Tracker",
@@ -1047,42 +1082,6 @@ const projects: Project[] = [
               `${BASE_PATH}/smartjobtracker/05.png`,
               `${BASE_PATH}/smartjobtracker/06.png`,
               `${BASE_PATH}/smartjobtracker/07.png`,
-            ]}
-          />
-        </div>
-      );
-    },
-  },
-  { // 06. Savinder Puri portfolio project
-    id: "savinderpurisportfolio",
-    category: "Web Development",
-    title: "Freelance Site",
-    src: "/assets/projects-screenshots/freelance/1.png",
-    screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
-    live: "https://savinder-puri.vercel.app/",
-    github:"https://github.com/Abhiz2411/savinder-puri",
-    skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
-      backend: [PROJECT_SKILLS.php, PROJECT_SKILLS.laravel, PROJECT_SKILLS.mysql],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            A freelance web development project showcasing my experience in building responsive, 
-            modern portfolio websites for clients. This project demonstrates my ability to work 
-            independently, understand client requirements, and deliver high-quality solutions using 
-            cutting-edge technologies. Built with React, Next.js, and TypeScript, it highlights 
-            my skills in frontend development, UI/UX design, and client collaboration. This 
-            freelance experience has strengthened my project management abilities and taught me 
-            valuable lessons in delivering professional web solutions on time and within scope. 💻🚀
-          </TypographyP>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/freelance/1.png`,
-              `${BASE_PATH}/freelance/2.png`,
-              `${BASE_PATH}/freelance/3.png`,
-              `${BASE_PATH}/freelance/4.png`,
             ]}
           />
         </div>
