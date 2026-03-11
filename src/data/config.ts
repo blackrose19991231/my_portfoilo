@@ -1,15 +1,15 @@
 const config = {
-  title: "Dmytro Panchuk | AI Engineer ChatGPT & AI-Powered Web Apps (MERN + Laravel), Web Development",
+  title: "Arjene Sta Rita | AI Engineer ChatGPT & AI-Powered Web Apps (MERN + Laravel), Web Development",
   description: {
-    long: "Explore the portfolio of Dmytro, a Computer Science Engineer with 5+ year experience in Development, I have solid experience developing scalable systems with Laravel and MERN stack, which allows me to integrate AI features into reliable, production-ready web applications.",
+    long: "Explore the portfolio of Arjene, a Computer Science Engineer with 5+ year experience in Development, I have solid experience developing scalable systems with Laravel and MERN stack, which allows me to integrate AI features into reliable, production-ready web applications.",
     short:
-      "Discover the portfolio of Dmytro, AI Engineer building ChatGPT-powered web apps with strong Laravel & MERN backends.",
+      "Discover the portfolio of Arjene, AI Engineer building ChatGPT-powered web apps with strong Laravel & MERN backends.",
   },
   keywords: [
-    "Dmytro Panchuk",
-    "Dmytro Panchuk",
+    "Arjene Sta Rita",
+    "Arjene Sta Rita",
     "dmytropanchuk",
-    "Dmytro Panchuk portfolio",
+    "Arjene Sta Rita portfolio",
     "portfolio",
     "Laravel",
     "Devlopment",
@@ -32,8 +32,8 @@ const config = {
     "AIOps",
     "Azure",
   ],
-  author: "Dmytro Panchuk",
-  email: "dmytropanchuk96@gmail.com",
+  author: "Arjene Sta Rita",
+  email: "arjenestarita@outlook.com",
   site: "https://blackrose-myport.netlify.app/",
 
   get ogImg() {
@@ -41,7 +41,7 @@ const config = {
   },
   social: {
     // twitter: "https://x.com/_Abhi_Speaks/",
-    // linkedin: "https://www.linkedin.com/in/Dmytro-Palamarchuk/",
+    // linkedin: "https://www.linkedin.com/in/Arjene-Palamarchuk/",
     // instagram: "https://www.instagram.com/_.celestial_abhi._/",
     // facebook: "https://www.facebook.com/profile.php?id=100010029821759",
     github: "https://github.com/Vincenzo0228-bong",
