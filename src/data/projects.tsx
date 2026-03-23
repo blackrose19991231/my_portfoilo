@@ -858,104 +858,104 @@ const projects: Project[] = [
     },
   },
   
-  // { // 03. Portfolio project
-  //   id: "portfolio",
-  //   category: "Portfolio",
-  //   title: "My Portfolio",
-  //   src: "/assets/projects-screenshots/myportfolio/landing.png",
-  //   screenshots: ["assets/projects-screenshots/myportfolio/landing.png"],
-  //   live: "https://www.abhijitzende.com/",
-  //   github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
-  //   skills: {
-  //     frontend: [
-  //       PROJECT_SKILLS.ts,
-  //       PROJECT_SKILLS.next,
-  //       PROJECT_SKILLS.shadcn,
-  //       PROJECT_SKILLS.aceternity,
-  //       PROJECT_SKILLS.framerMotion,
-  //       PROJECT_SKILLS.tailwind,
-  //       PROJECT_SKILLS.spline,
-  //     ],
-  //     backend: [],
-  //   },
-  //   get content() {
-  //     return (
-  //       <div>
-  //         <TypographyP className="font-mono ">
-  //           Welcome to my digital playground, where creativity meets code in the
-  //           dopest way possible.
-  //         </TypographyP>
-  //         {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
-  //         <TypographyH3 className="my-4 mt-8">
-  //           Beautiful 3D Objects{" "}
-  //         </TypographyH3>
-  //         <p className="font-mono mb-2">
-  //           Did you see that 3D keyboard modal? Yeah! I made that. That
-  //           interactive keyboard is being rendered in 3D on a webpage 🤯, and
-  //           pressing each keycap reveals a skill in a goofy way. It&apos;s like
-  //           typing, but make it art.
-  //         </p>
-  //         <SlideShow
-  //           images={[
-  //             `${BASE_PATH}/myportfolio/landing.png`,
-  //             `${BASE_PATH}/portfolio/skills.png`,
-  //           ]}
-  //         />
-  //         <TypographyH3 className="my-4 ">Space Theme</TypographyH3>
-  //         <p className="font-mono mb-2">
-  //           Dark background + floating particles = out-of-this-world cool.
-  //         </p>
-  //         <SlideShow images={[`${BASE_PATH}/myportfolio/navbar.png`]} />
-  //         <TypographyH3 className="my-4 mt-8">Projects</TypographyH3>
+  { // 03. Portfolio project
+    id: "portfolio",
+    category: "Portfolio",
+    title: "My Portfolio",
+    src: "/assets/projects-screenshots/myportfolio/landing.png",
+    screenshots: ["assets/projects-screenshots/myportfolio/landing.png"],
+    live: "https://www.abhijitzende.com/",
+    github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.ts,
+        PROJECT_SKILLS.next,
+        PROJECT_SKILLS.shadcn,
+        PROJECT_SKILLS.aceternity,
+        PROJECT_SKILLS.framerMotion,
+        PROJECT_SKILLS.tailwind,
+        PROJECT_SKILLS.spline,
+      ],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Welcome to my digital playground, where creativity meets code in the
+            dopest way possible.
+          </TypographyP>
+          {/* <ProjectsLinks live={this.live} repo={this.github} /> */}
+          <TypographyH3 className="my-4 mt-8">
+            Beautiful 3D Objects{" "}
+          </TypographyH3>
+          <p className="font-mono mb-2">
+            Did you see that 3D keyboard modal? Yeah! I made that. That
+            interactive keyboard is being rendered in 3D on a webpage 🤯, and
+            pressing each keycap reveals a skill in a goofy way. It&apos;s like
+            typing, but make it art.
+          </p>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/myportfolio/landing.png`,
+              `${BASE_PATH}/portfolio/skills.png`,
+            ]}
+          />
+          <TypographyH3 className="my-4 ">Space Theme</TypographyH3>
+          <p className="font-mono mb-2">
+            Dark background + floating particles = out-of-this-world cool.
+          </p>
+          <SlideShow images={[`${BASE_PATH}/myportfolio/navbar.png`]} />
+          <TypographyH3 className="my-4 mt-8">Projects</TypographyH3>
 
-  //         <p className="font-mono mb-2">
-  //           My top personal and freelance projects — no filler, all killer.
-  //         </p>
-  //         <SlideShow
-  //           images={[
-  //             `${BASE_PATH}/myportfolio/projects.png`,
-  //             `${BASE_PATH}/myportfolio/project.png`,
-  //           ]}
-  //         />
-  //         <p className="font-mono mb-2 mt-8 text-center">
-  //           This site&apos;s not just a portfolio — it&apos;s a whole vibe.
-  //         </p>
-  //       </div>
-  //     );
-  //   },
-  // },
-  // { // 04. Smart parking assitant
-  //   id: "smartparkingassitant",
-  //   category: "Online Shopping",
-  //   title: "E-Commerce Website",
-  //   src: "/assets/projects-screenshots/ecomme/1.png",
-  //   screenshots: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"],
-  //   live: "https://github.com/Vincenzo0228-bong/black_owner",
-  //   github:"https://github.com/Vincenzo0228-bong/black_owner",
-  //   skills: {
-  //     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind],
-  //     backend: [PROJECT_SKILLS.node, PROJECT_SKILLS.express, PROJECT_SKILLS.mongo],
-  //   },
-  //   get content() {
-  //     return (
-  //       <div>
-  //         <TypographyP className="font-mono ">
-  //         I am writing to express my interest in contributing to your e commerce website development project. I have strong experience building and scaling e commerce platforms, including product catalogs, payment integrations, and order management systems. I focus on clean architecture, performance optimization, and reliable user experiences, while collaborating closely with cross functional teams. I would be glad to apply my skills to help deliver a stable and high performing e commerce solution.
-  //         </TypographyP>
-  //         <SlideShow
-  //           images={[
-  //             `${BASE_PATH}/ecomme/1.png`,
-  //             `${BASE_PATH}/ecomme/2.png`,
-  //             `${BASE_PATH}/ecomme/3.png`,
-  //             `${BASE_PATH}/ecomme/4.png`,
-  //             `${BASE_PATH}/ecomme/5.png`,
-  //             `${BASE_PATH}/ecomme/6.png`,
-  //           ]}
-  //         />
-  //       </div>
-  //     );
-  //   },
-  // },
+          <p className="font-mono mb-2">
+            My top personal and freelance projects — no filler, all killer.
+          </p>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/myportfolio/projects.png`,
+              `${BASE_PATH}/myportfolio/project.png`,
+            ]}
+          />
+          <p className="font-mono mb-2 mt-8 text-center">
+            This site&apos;s not just a portfolio — it&apos;s a whole vibe.
+          </p>
+        </div>
+      );
+    },
+  },
+  { // 04. Smart parking assitant
+    id: "smartparkingassitant",
+    category: "Online Shopping",
+    title: "E-Commerce Website",
+    src: "/assets/projects-screenshots/ecomme/1.png",
+    screenshots: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"],
+    live: "https://github.com/Vincenzo0228-bong/black_owner",
+    github:"https://github.com/Vincenzo0228-bong/black_owner",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind],
+      backend: [PROJECT_SKILLS.node, PROJECT_SKILLS.express, PROJECT_SKILLS.mongo],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+          I am writing to express my interest in contributing to your e commerce website development project. I have strong experience building and scaling e commerce platforms, including product catalogs, payment integrations, and order management systems. I focus on clean architecture, performance optimization, and reliable user experiences, while collaborating closely with cross functional teams. I would be glad to apply my skills to help deliver a stable and high performing e commerce solution.
+          </TypographyP>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/ecomme/1.png`,
+              `${BASE_PATH}/ecomme/2.png`,
+              `${BASE_PATH}/ecomme/3.png`,
+              `${BASE_PATH}/ecomme/4.png`,
+              `${BASE_PATH}/ecomme/5.png`,
+              `${BASE_PATH}/ecomme/6.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
   { // 05. FinanceMe project
     id: "financeme",
     category: "DevOps in Banking and Finance",
